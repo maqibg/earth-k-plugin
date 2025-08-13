@@ -40,34 +40,23 @@ export const helpCfg = {
 
 // 帮助菜单内容
 export const helpList = [{
-  group: '土块小游戏',
+  group: '语音与视频',
   list: [{
-    icon: 80,
-    title: '#练习记忆力',
-    desc: '记忆力小游戏 我猜+数字回答 #重置分数'
+    icon: 57,
+    title: '#角色语音汇总',
+    desc: '查看所有角色语音索引'
   }, {
-    icon: 46,
-    title: '猜语音 我猜+<角色>',
-    desc: '猜原神语音 命令：猜语音 原神猜语 #我猜'
-  }]
-}, {
-  group: '土块功能',
-  list: [{
-    icon: 33,
-    title: '点歌xx',
-    desc: '返回图片列表,点歌酷狗xx,点歌qqxx'
+    icon: 57,
+    title: '#<角色>语音<序号>',
+    desc: '播放指定语音，或发送“#<角色>语音列表”查看列表'
   }, {
     icon: 31,
-    title: '#点视频+<视频名称>',
-    desc: '查找视频返回图片列表 #取消搜索'
+    title: '#角色视频列表',
+    desc: '原神角色 PV 列表，配合序号播放'
   }, {
-    icon: 22,
-    title: '#点小说+<小说名称>',
-    desc: '查找小说返回图片列表 #取消小说搜索'
-  }, {
-    icon: 52,
-    title: '#点漫画+<漫画名称>',
-    desc: '查找漫画返回图片列表 #取消漫画搜索'
+    icon: 31,
+    title: '#过场动画列表',
+    desc: '过场动画列表，配合序号播放'
   }]
 }, {
   group: '土块原史功能',
@@ -158,6 +147,70 @@ export const helpList = [{
     icon: 80,
     title: '#原史npc目录',
     desc: 'npc id列表'
+  }]
+}, {
+  group: '了解人物与表情包',
+  list: [{
+    icon: 58,
+    title: '#了解+<角色>',
+    desc: '返回本地角色图，例如 #了解 刻晴'
+  }, {
+    icon: 76,
+    title: '#土块表情列表',
+    desc: '查看可用表情模板'
+  }, {
+    icon: 76,
+    title: '#土块表情开启/关闭',
+    desc: '开启或关闭表情功能（关键词触发）'
+  }]
+}, {
+  group: '系统与状态',
+  list: [{
+    icon: 39,
+    title: '#土块状态',
+    desc: '系统/磁盘/网络等状态面板'
+  }, {
+    icon: 39,
+    title: '#土块状态pro',
+    desc: '多 Bot/更详细的状态视图'
+  }]
+}, {
+  group: '小工具',
+  list: [{
+    icon: 33,
+    title: '#今日运势',
+    desc: '按 QQ 号返回今日运势'
+  }, {
+    icon: 52,
+    title: '#弹琴帮助',
+    desc: '查看乐器演奏说明（需本地 FFmpeg）'
+  }, {
+    icon: 52,
+    title: '#钢琴/#八音盒/... <简谱>|<倍速>',
+    desc: '示例：#钢琴1 2 3 1|200（需 FFmpeg 环境）'
+  }, {
+    icon: 46,
+    title: '#(开启|关闭)表情合成',
+    desc: '两表情合成，连续发送两个 Emoji 自动尝试'
+  }]
+}, {
+  group: '群友结缘',
+  list: [{
+    icon: 95,
+    title: '娶群友 / 强娶 @某人',
+    desc: '随机/指定对象结缘（有概率失败）'
+  }, {
+    icon: 95,
+    title: '抢群友 @某人',
+    desc: '有概率抢走他人对象'
+  }, {
+    icon: 95,
+    title: '#群对象列表',
+    desc: '查看当前群的对象列表'
+  }, {
+    icon: 95,
+    title: '闹离婚 / 我对象呢',
+    desc: '解除关系 / 查询当前对象'
   }]
 }, {
   group: '管理命令，仅管理员可用',
